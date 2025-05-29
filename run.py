@@ -10,12 +10,12 @@ SUPABASE_TABLE_NAME = "scp"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # API Serper
-API_KEY = "6817cc14c579f12b4faccbcb8cbd7b2e2eadbd27"
+API_KEY = "0317ed0b191917a3a43c0b7cead9b2ab14ed0d66"
 URL_API = "https://google.serper.dev/search"
 
 # Rentang baris yang akan diproses
-mulai = 92500
-endnya = 95000
+mulai = 95000
+endnya = 97500
 
 headers = {
     "X-API-KEY": API_KEY,
