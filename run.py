@@ -10,12 +10,12 @@ SUPABASE_TABLE_NAME = "happyhouse"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # API Serper
-API_KEY = "5c08333fc4ddfd103a4f21ec23a29cd96766abfc"
+API_KEY = "8a16978b0f36092e83aea73875e01cab32568145"
 URL_API = "https://google.serper.dev/search"
 
 # Rentang baris yang akan diproses
-mulai = 5000
-endnya = 7500
+mulai = 7500
+endnya = 10000
 
 headers = {
     "X-API-KEY": API_KEY,
