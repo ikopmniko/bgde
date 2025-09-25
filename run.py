@@ -6,16 +6,16 @@ from supabase import create_client, Client
 # Ganti dengan info Supabase kamu
 SUPABASE_URL = "https://cyemzywgajklblvvgwea.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN5ZW16eXdnYWprbGJsdnZnd2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg3NjE5MjAsImV4cCI6MjA3NDMzNzkyMH0.VhSB949TDdJnvDTbcHrxIAKmXqeYhTayPPuztc7t4To"
-SUPABASE_TABLE_NAME = "scp"
+SUPABASE_TABLE_NAME = "happyhouse"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # API Serper
-API_KEY = "272ceea9b8c8097c5a3c6a82254e764b4d7a379e"
+API_KEY = "272ceea9b8c8097c5a3c6a82254e764b4d7a3"
 URL_API = "https://google.serper.dev/search"
 
 # Rentang baris yang akan diproses
-mulai = 22500
-endnya = 25000
+mulai = 0
+endnya = 100
 
 headers = {
     "X-API-KEY": API_KEY,
