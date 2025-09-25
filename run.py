@@ -4,8 +4,8 @@ from concurrent.futures import ThreadPoolExecutor
 from supabase import create_client, Client
 
 # Ganti dengan info Supabase kamu
-SUPABASE_URL = "https://cqakrownxujefhtmsefa.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNxYWtyb3dueHVqZWZodG1zZWZhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIyNjMyMzMsImV4cCI6MjA0NzgzOTIzM30.E9jJxNBxFsVZsndwhsMZ_2hXaeHdDTLS7jZ50l-S72U"
+SUPABASE_URL = "https://cyemzywgajklblvvgwea.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN5ZW16eXdnYWprbGJsdnZnd2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg3NjE5MjAsImV4cCI6MjA3NDMzNzkyMH0.VhSB949TDdJnvDTbcHrxIAKmXqeYhTayPPuztc7t4To"
 SUPABASE_TABLE_NAME = "scp"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
@@ -14,8 +14,8 @@ API_KEY = "95164e01ffd98f4ddd47e12e6166a783b020c575"
 URL_API = "https://google.serper.dev/search"
 
 # Rentang baris yang akan diproses
-mulai = 97500
-endnya = 100000
+mulai = 1
+endnya = 10
 
 headers = {
     "X-API-KEY": API_KEY,
