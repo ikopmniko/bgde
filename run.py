@@ -14,7 +14,7 @@ API_KEY = "7d071763bd4b7f2b7eada38017391f9544854575"
 URL_API = "https://google.serper.dev/search"
 
 # Rentang baris yang akan diproses
-mulai = 0
+mulai = 1
 endnya = 2500
 
 headers = {
